@@ -28,7 +28,7 @@ public class RegValueCheck implements GeneratesCode {
 		
 		result += "beq x5," + regToBeChecked.getName() + ",pass" + checkid + "\n";
 		result += "li x5," + checkid + "\n";
-		result += "j globalfail\n";
+		result += "ret\n";
 		result += "pass" + checkid + ":\n";
 		
 		return result;

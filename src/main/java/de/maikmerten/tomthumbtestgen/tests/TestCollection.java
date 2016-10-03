@@ -58,11 +58,8 @@ public class TestCollection implements GeneratesCode {
 	
 	
 	private String codeFooter() {
-		String result = "\nglobalpass:\n";
-		result += "li x5,-1\n"; // no test failed
-		result += "globalfail:\n";
-		result += "ret\n";
-		return result;
+		// -1 in x5 denotes that all tests passed
+		return "li x5,-1\nret\n";
 	}
 	
 	
