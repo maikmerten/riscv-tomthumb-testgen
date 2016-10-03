@@ -20,10 +20,12 @@ public class TestCollection implements GeneratesCode {
 		for(int i = 0; i < testnum; ++i) {
 			float f = r.nextFloat();
 			
-			if(f < 0.5) {
+			if(f < 0.4) {
 				tests.add(new RegOpTest(i));
-			} else {
+			} else if(f < 0.8) {
 				tests.add(new ImmOpTest(i));
+			} else {
+				tests.add(new MemOpTest(i));
 			}
 		}
 	}
