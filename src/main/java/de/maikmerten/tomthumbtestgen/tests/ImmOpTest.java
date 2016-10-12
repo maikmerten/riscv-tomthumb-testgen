@@ -32,7 +32,7 @@ public class ImmOpTest extends Test {
 		Random r = new Random();
 		
 		int ops = 8;
-		int choice = r.nextInt(ops-1);
+		int choice = r.nextInt(ops);
 		
 		switch(choice) {
 			case 0: return new AddiOp();

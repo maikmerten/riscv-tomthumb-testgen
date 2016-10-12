@@ -33,7 +33,7 @@ public class RegOpTest extends Test {
 		Random r = new Random();
 		
 		int ops = 10;
-		int choice = r.nextInt(ops-1);
+		int choice = r.nextInt(ops);
 		
 		switch(choice) {
 			case 0: return new AddOp();

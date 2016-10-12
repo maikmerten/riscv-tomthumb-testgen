@@ -28,7 +28,7 @@ public class MemOpTest extends Test {
 		Random r = new Random();
 		
 		int ops = 5;
-		int choice = r.nextInt(ops-1);
+		int choice = r.nextInt(ops);
 		
 		switch(choice) {
 			case 0: return new SbLbOp();
