@@ -55,7 +55,7 @@ public class TestCollection implements GeneratesCode {
 	}
 	
 	private String codeHeader() {
-		return ".text\ntestcase:\n\n";
+		return "testcollection:\n\n";
 	}
 	
 	
