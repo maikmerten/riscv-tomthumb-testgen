@@ -17,7 +17,7 @@ public class Register implements GeneratesCode {
 		// assign random value
 		this.value = r.nextInt();
 		
-		// select random register (6 to 15)
+		// select random register (6 to 14)
 		this.regnum = r.nextInt(9) + 6;
 	}
 	
