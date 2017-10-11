@@ -31,7 +31,7 @@ public class ImmOpTest extends Test {
 	private ImmOp selectOp() {
 		Random r = new Random();
 		
-		int ops = 8;
+		int ops = 9;
 		int choice = r.nextInt(ops);
 		
 		switch(choice) {
